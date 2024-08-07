@@ -7,23 +7,6 @@ from account.models import User
 from account.serializers import UserSerializer
 
 
-
-# @api_view(['POST'])
-# def search(request):
-#     data = request.data
-#     query = data['query']
-#     print("query:",query)
-#     user_ids = [request.user.id]
-
-#     users = User.objects.filter(
-#         Q(name__icontains=query) | Q(email__iexact=query)
-#     )
-#     users_serializer = UserSerializer(users, many=True)
-#     return JsonResponse({
-#         'users': users_serializer.data,
-#     }, safe=False)
-
-
 @api_view(['POST'])
 def search(request):
     data = request.data

@@ -11,16 +11,7 @@ services:
     volumes:
       - ${DIRR}/UniVerse_backend:/UniVerse_backend
 
-  app:
-    build: .
-    container_name: app
-    command: bash -c "cd /UniVerse_frontend && npm run dev"
-    ports:
-      - "5173:5173"
-    volumes:
-      - ${DIRR}/UniVerse_frontend:/UniVerse_frontend
-    environment:
-      - NODE_OPTIONS=--openssl-legacy-provider
+  
 
   celery:
     build: .
