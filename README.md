@@ -34,5 +34,4 @@ Without Docker
 
 
 #Please find API collections here 
-https://api.postman.com/collections/30746322-b49c8abe-a8b8-45c8-a597-3e55acdb5ecf?access_key=PMAT-01J4R8EJZT0QH0NRJ5M878GQ4W
-
+https://www.postman.com/ashwanitripathi/workspace/ashwani-accuknox/collection/30746322-b49c8abe-a8b8-45c8-a597-3e55acdb5ecf
