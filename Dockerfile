@@ -18,6 +18,7 @@ ENV PYTHONPATH "${PYTHONPATH}/UniVerse_backend"
 
 COPY UniVerse_backend/requirements.txt .
 
+
 RUN pip install -r requirements.txt
 
 
